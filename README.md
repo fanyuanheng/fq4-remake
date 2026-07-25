@@ -115,6 +115,13 @@ swift test
 The project is a Swift Package with a native SwiftUI executable target and
 requires no third-party Swift dependencies.
 
+## Further reading
+
+The project keeps a curated list of
+[external game references](docs/external-game-references.md). These guides help
+cross-check terminology and gameplay behavior but are not used as the sole
+authority for binary save-file writes.
+
 ## Project boundary
 
 This repository contains only the wrapper source, tests, documentation, and
