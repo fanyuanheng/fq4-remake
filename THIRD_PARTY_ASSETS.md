@@ -11,6 +11,8 @@ from the original game and are not relicensed under the MIT License:
 - `Resources/FirstQueenIVCover.png`
 - The original-game sprite artwork visible in
   `docs/images/class-editor.png`
+- The original-game artwork visible in
+  `docs/images/ares-opposing-faction-army.webp`
 
 The locally supplied `FQ4/` directory and DOSBox installation are excluded from
 the repository and remain subject to their respective owners' terms.

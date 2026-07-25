@@ -17,10 +17,23 @@ release to Nintendo Switch through EGGCONSOLE. Its return is a reminder that the
 game's crowded real-time battles, recruitable armies, fatigue system, and
 two-squad tactics still feel distinctive decades later.
 
-> For me, *First Queen IV* is still the best game of its kind. I made this
-> project so my original DOS copy could continue to feel at home on a modern
-> Mac—not as a replacement for an official release, but as a personal bridge
-> between the game I remember and the computer I use today.
+### A childhood idea, finally playable
+
+When *First Queen IV* was released in 1994, I was ten years old. I always
+wondered: what if Ares could lead an army drawn from the opposing factions—Red
+Warriors, Griffons, and other units that were never meant to stand together?
+
+More than three decades later, I finally built the editor that lets that
+childhood idea come alive.
+
+![Ares leading a mixed army created with the class editor](docs/images/ares-opposing-faction-army.webp)
+
+*Ares leading a once-impossible mixed army of opposing-faction units.*
+
+> For me, *First Queen IV* is still the best game of its kind. This project
+> lets my original DOS copy feel at home on a modern Mac—not as a replacement
+> for an official release, but as a personal bridge between the game I remember
+> and the computer I use today.
 
 Read about the revival on the
 [official Nintendo listing](https://www.nintendo.com/us/store/products/eggconsole-first-queen-iv-pc-9801-switch/)
