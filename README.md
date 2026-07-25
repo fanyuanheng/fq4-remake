@@ -9,6 +9,31 @@ editor built around the game's original data and pixel art.
 This is a non-commercial fan project. The original game and DOSBox are external
 dependencies and are **not included in this repository**.
 
+## Why this project exists
+
+*First Queen IV* began on the PC-9801 in 1994, created by Kure Software Koubou.
+On June 25, 2026—32 years later—D4 Enterprise brought that original PC-9801
+release to Nintendo Switch through EGGCONSOLE. Its return is a reminder that the
+game's crowded real-time battles, recruitable armies, fatigue system, and
+two-squad tactics still feel distinctive decades later.
+
+> For me, *First Queen IV* is still the best game of its kind. I made this
+> project so my original DOS copy could continue to feel at home on a modern
+> Mac—not as a replacement for an official release, but as a personal bridge
+> between the game I remember and the computer I use today.
+
+Read about the revival on the
+[official Nintendo listing](https://www.nintendo.com/us/store/products/eggconsole-first-queen-iv-pc-9801-switch/)
+or in [GoNintendo's launch coverage](https://www.gonintendo.com/contents/62200-first-queen-iv-pc-9801-launches-on-switch-today).
+If the Switch edition is available in your region, please support the official
+release.
+
+### Official Nintendo Switch trailer
+
+[![Watch the official EGGCONSOLE First Queen IV Nintendo Switch trailer](https://img.youtube.com/vi/dCCDnEHAuj4/maxresdefault.jpg)](https://www.youtube.com/watch?v=dCCDnEHAuj4)
+
+*Official Project EGG trailer. Select the image to watch it on YouTube.*
+
 ## Class-aware save editor
 
 ![Class editor comparing Ares's original King model with the Giant class](docs/images/class-editor.png)
