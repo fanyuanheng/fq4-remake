@@ -1,0 +1,25 @@
+# Swift and packaged app output
+/.build/
+/build/
+/.swiftpm/
+
+# Proprietary First Queen IV game files and saves
+/FQ4/
+/FQ4GD.[0-3]
+/Save Backups/
+/FQ4*.zip
+/FQ4*.7z
+/FQ4*.rar
+
+# DOSBox is an external dependency and must not be bundled in the repository
+/DOSBox*.app/
+/dosbox*.app/
+/DOSBox*/
+/dosbox*/
+/dosbox*.conf
+/dosbox*.ini
+
+# Xcode and macOS local state
+xcuserdata/
+*.xcuserstate
+.DS_Store
