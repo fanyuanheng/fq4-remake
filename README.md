@@ -123,3 +123,12 @@ the DOSBox emulator. Do not distribute a locally built app containing
 proprietary game assets without permission from the relevant rights holders.
 The launcher does not modify or bypass the original executable; the optional
 editor writes only to the user's private save copy after creating a backup.
+
+## License
+
+The wrapper source code and original project documentation are open source
+under the [MIT License](LICENSE).
+
+The original game, cover, in-game sprites, names, trademarks, and other
+third-party material are not relicensed. See
+[Third-party assets](THIRD_PARTY_ASSETS.md) for the exact boundary.
