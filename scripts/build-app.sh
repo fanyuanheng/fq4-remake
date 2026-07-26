@@ -2,7 +2,7 @@
 set -euo pipefail
 
 project_root="$(cd "$(dirname "$0")/.." && pwd)"
-app_root="$project_root/build/FQ4 Wrapper.app"
+app_root="$project_root/build/FQ4 Launcher.app"
 contents_root="$app_root/Contents"
 iconset_root="$project_root/build/AppIcon.iconset"
 

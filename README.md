@@ -1,6 +1,6 @@
 ![First Queen IV original cover](Resources/FirstQueenIVCover.png)
 
-# FQ4 Wrapper for macOS
+# FQ4 Launcher for macOS
 
 A native macOS home for a user-supplied DOS copy of *First Queen IV*: one-click
 launching through DOSBox Staging, four-slot save management, and a class-aware
@@ -88,7 +88,7 @@ it. At minimum, the build and editor expect the original launch executable and
 data archives, including:
 
 ```text
-fq4-remake/
+fq4-macos-launcher/
 └── FQ4/
     ├── PLAY.BAT
     ├── MAIN.EXE
@@ -118,29 +118,31 @@ game files and cover art, generates the app icon, applies an ad-hoc signature,
 and verifies the finished bundle:
 
 ```text
-build/FQ4 Wrapper.app
+build/FQ4 Launcher.app
 ```
 
 Launch the local build:
 
 ```sh
-open "build/FQ4 Wrapper.app"
+open "build/FQ4 Launcher.app"
 ```
 
 Or install it in `/Applications`:
 
 ```sh
-ditto "build/FQ4 Wrapper.app" "/Applications/FQ4 Wrapper.app"
+ditto "build/FQ4 Launcher.app" "/Applications/FQ4 Launcher.app"
 ```
 
-On first launch, the wrapper creates a writable game copy under:
+On first launch, the launcher creates a writable game copy under the original
+support-directory name:
 
 ```text
 ~/Library/Application Support/FQ4 Wrapper/FQ4
 ```
 
-This keeps runtime writes and edited saves away from the original files used to
-build the app.
+The support path intentionally remains unchanged from earlier builds, so
+existing saves continue to work. It keeps runtime writes and edited saves away
+from the original files used to build the app.
 
 ## Development
 

@@ -9,7 +9,7 @@ struct GameInstallation {
         var errorDescription: String? {
             switch self {
             case .missingSource:
-                return "The original FQ4 files are missing from this wrapper."
+                return "The original FQ4 files are missing from this app."
             case .incompleteSource(let name):
                 return "The bundled FQ4 folder is missing \(name)."
             case .incompleteCopy(let name):
@@ -19,6 +19,7 @@ struct GameInstallation {
     }
 
     static let requiredFiles = ["MAIN.EXE", "FQ4OPN.EXE", "PLAY.BAT"]
+    // Keep the legacy support path so existing saves survive the app rename.
     static let supportFolderName = "FQ4 Wrapper"
 
     let fileManager: FileManager

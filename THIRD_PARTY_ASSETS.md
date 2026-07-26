@@ -1,6 +1,6 @@
 # Third-party assets
 
-The MIT License in this repository covers the FQ4 Wrapper source code and
+The MIT License in this repository covers the FQ4 Launcher source code and
 original project documentation. It does not grant rights to *First Queen IV*,
 DOSBox, or any third-party artwork, game data, trademarks, characters, names,
 sprites, audio, or other copyrighted material.

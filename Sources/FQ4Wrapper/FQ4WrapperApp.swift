@@ -18,7 +18,7 @@ struct FQ4WrapperApp: App {
     @AppStorage("launchFullscreen") private var launchFullscreen = true
 
     var body: some Scene {
-        WindowGroup("FQ4 Wrapper") {
+        WindowGroup("FQ4 Launcher") {
             LauncherView(
                 launcher: launcher,
                 launchFullscreen: $launchFullscreen
